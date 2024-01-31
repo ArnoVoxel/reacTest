@@ -1,10 +1,9 @@
-import { IonContent, IonHeader, IonItem, IonNavLink, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import CardsContainer from '../components/cards/CardsContainer';
 import './Home.css';
 import Toolbar from '../components/toolbar/Toolbar';
 
-const Home: React.FC = () => {
+const CardsPage: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -16,10 +15,10 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <CardsContainer />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default CardsPage;
