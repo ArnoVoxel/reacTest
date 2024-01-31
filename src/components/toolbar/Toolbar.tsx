@@ -7,7 +7,7 @@ const Toolbar: React.FC = () => {
         <IonItem routerLink="/home">Home</IonItem>
       </IonTitle>
       <IonTitle>
-        <IonItem routerLink="/cards">Cards</IonItem>
+        <IonItem routerLink="/cards">CardsList</IonItem>
       </IonTitle>
     </IonToolbar>
   )
